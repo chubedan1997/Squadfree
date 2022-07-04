@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="./font/fontawesome-free-6.0.0-web/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+   <!-- aos animate -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- reset css -->
+    <link rel="stylesheet" href="./reset.css">
+    <!-- slick slider -->
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.scss">
+    
+</head>
+
+<body>
+    <div class="header">
+            <div class="container d-flex  justify-content-between">
+                <div class="col-logo col-xl-3 col-md-3 ">
+                    <span class="logo">Squadfree</span>
+                </div>
+                <div class="col-navbar  col-md-9 d-flex d-none d-sm-none  d-lg-block  ">
+                    <ul class="nav-bar  d-flex justify-content-end" >
+                        <li><a href="#hero"  class="active nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About Us</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                        <li><a href="#team" class="nav-link">Team</a></li>
+                        <li class="drop-down"><a href="#" class="nav-link">Dropdown<i class="fa-solid fa-angle-down"></i></a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                  
+                </div>
+                <i class="fa-solid fa-bars mobile-bars  d-block d-sm-block  d-lg-none "></i>
+            </div>
+
+    </div>
+    <div class="hero" id="hero">
+        <div class="hero-item" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500">
+            <h1>Welcome to Squad</h1>
+            <h2>We are team of talented designers making websites with Bootstrap</h2>
+            <a href="#"><i class="fa-solid fa-angles-down"></i></a>
+        </div>
+    </div>
+    <div class="main">
+        <div class="container">
+            <div class="main-about no-gutters">
+                <div class="about-left about-left col-xl-5 col-md-10 align-items-stretch d-flex-colums align-item-center" data-aos="fade-up" data-aos-duration="1500">
+                    <h3>Voluptatem dignissimos provident quasi</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+                    <a href="#" class="about-btn">About us <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+                <div class="about-right col-xl-7 col-md-12"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                    <div class="content col-md-6">
+                        <i class="fa-solid fa-receipt"></i>
+                        <h4>Corporis voluptates sit</h4>
+                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    </div>
+                    <div class="content col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                        <i class="fa-solid fa-cubes"></i>
+                        <h4>Ullamco laboris nisi</h4>
+                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                    </div>
+                    <div class="content col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                        <i class="fa-solid fa-images"></i>
+                        <h4>Labore consequatur</h4>
+                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                    </div>
+                    <div class="content col-md-6" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                        <i class="fa-solid fa-shield"></i>
+                        <h4>Beatae veritatis</h4>
+                        <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="services" id="services">
+        <div class="container">
+            <div class="services-title" data-aos="fade-in" data-aos-delay="100">
+                <h2>Services</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+            <div class="services-content ">
+                <div class="services-items d-flex  align-items-stretch ">
+                    <div class="col-12 col-md-6 col-lg-3 d-flex align-items-stretch  ">
+                        <div class="services-item" data-aos="fade-up" data-aos-delay="100">
+                            <i class="fa-brands fa-dribbble"></i>
+                            <h4>Lorem Ipsum</h4>
+                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 d-flex align-items-stretch  ">
+                        <div class="services-item " data-aos="fade-up" data-aos-delay="200">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <h4>Sed ut perspiciatis</h4>
+                            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                                dolore</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 d-flex align-items-stretch  ">
+                        <div class="services-item " data-aos="fade-up" data-aos-delay="300">
+                            <i class="fa-solid fa-clock"></i>
+                            <h4>Magni Dolores</h4>
+                            <p class="text">Magni Dolores Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 d-flex align-items-stretch  ">
+                        <div class="services-item " data-aos="fade-up" data-aos-delay="400">
+                            <i class="fa-solid fa-earth-europe"></i>
+                            <h4>Nemo Enim</h4>
+                            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="counter">
+        <div class="container">
+            <div class="counter-lists">
+                <div class="counter-box col-12 col-md-6 col-lg-3">
+                    <div class="counter-item">
+                        <i class="fa-solid fa-face-smile"></i>
+                        <span class="data-number" data-target="232">0</span>
+                    </div>
+                    <p>
+                        <strong>Happy Clients</strong>
+                        consequuntur quae
+                    </p>
+                </div>
+
+                <div class="counter-box col-12 col-md-6 col-lg-3">
+                    <div class="counter-item">
+                        <i class="fa-solid fa-book"></i>
+                        <span class="data-number" data-target="521">0</span>
+                    </div>
+                    <p>
+                        <strong>Projects</strong>
+                        adipisci atque cum quia aut
+                    </p>
+                </div>
+                <div class="counter-box col-12 col-md-6 col-lg-3">
+                    <div class="counter-item">
+                        <i class="fa-solid fa-headset"></i>
+                        <span class="data-number" data-target="1463">0</span>
+                    </div>
+                    <p>
+                        <strong>Hours Of Support</strong>
+                        aut commodi quaerat
+                    </p>
+                </div>
+
+                <div class="counter-box col-12 col-md-6 col-lg-3">
+                    <div class="counter-item">
+                        <i class="fa-solid fa-circle-user"></i>
+                        <span class="data-number" data-target="15">0</span>
+                    </div>
+                    <p>
+                        <strong>Hard Workers</strong>
+                        rerum asperiores dolor
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cta">
+        <div class="container">
+            <div class="cta-item" data-aos="zoom-in" data-aos-delay="500">
+                <h3>Call To Action</h3>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</p>
+                <a href="#" class="cta-btn">CALL TO ACTION</a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="portfolio-title" data-aos="fade-in" data-aos-duration="1000">
+                <h2>Portfolio</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+            <div class="portfolio-content" data-aos="fade-in" data-aos-duration="1000">
+                <ul class="nav-bar">
+                    <li class="active control" data-keyword="ALL">ALL</li>
+                    <li  class="control" data-keyword="APP">APP</li>
+                    <li class="control" data-keyword="CARD">CARD</li>
+                    <li class="control" data-keyword="WEB">WEB</li>
+                </ul>
+            </div>
+            <div class="portfolio-items d-flex" data-aos="fade-up">
+                <div class="portfoloi-item col-lg-4 col-md-6" data-keyword="APP">
+                    <div class="item-img">
+                        <img src="./img/portfolio-1.jpg" alt="">
+                        <div class="item-link">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfoloi-item col-lg-4 col-md-6" data-keyword="WEB">
+                    <div class="item-img">
+                        <img src="./img/portfolio-2.jpg" alt="">
+                        <div class="item-link">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfoloi-item col-lg-4 col-md-6" data-keyword="APP">
+                    <div class="item-img">
+                        <img src="./img/portfolio-3.jpg" alt="">
+                        <div class="item-link">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfoloi-item col-lg-4 col-md-6" data-keyword="CARD">
+                    <div class="item-img">
+                        <img src="./img/portfolio-4.jpg" alt="">
+                        <div class="item-link">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfoloi-item col-lg-4 col-md-6"  data-keyword="WEB">
+                    <div class="item-img">
+                        <img src="./img/portfolio-5.jpg" alt="">
+                        <div class="item-link">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfoloi-item col-lg-4 col-md-6"  data-keyword="APP">
+                    <div class="item-img">
+                        <img src="./img/portfolio-6.jpg" alt="">
+                        <div class="item-link">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfoloi-item col-lg-4 col-md-6" data-keyword="CARD">
+                    <div class="item-img">
+                        <img src="./img/portfolio-7.jpg" alt="">
+                        <div class="item-link">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfoloi-item col-lg-4 col-md-6" data-keyword="CARD">
+                    <div class="item-img">
+                        <img src="./img/portfolio-8.jpg" alt="">
+                        <div class="item-link">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfoloi-item col-lg-4 col-md-6"  data-keyword="WEB">
+                    <div class="item-img">
+                        <img src="./img/portfolio-9.jpg" alt="">
+                        <div class="item-link">
+                            <a href="#"><i class="fa-solid fa-plus"></i></a>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="Testimonials" >
+        <div class="container">
+            <div class="Testimonials-title" data-aos="fade-in" data-aos-delay="100">
+                <h2>Testimonials</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                    consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
+                    fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+            <div class="slider-items" data-aos="fade-in" data-aos-delay="200">
+                <div class="slider-item">
+                    <p>
+                        <i class="fa-solid fa-quote-left"></i>
+                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+                        Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                        <i class="fa-solid fa-quote-right"></i>
+                    </p>
+                    <img src="./img/testimonials-1.jpg" alt="">
+                    <h3>Saul Goodman</h3>
+                    <h4>Ceo &amp; Founder</h4>
+                </div>
+                <div class="slider-item">
+                    <p>
+                        <i class="fa-solid fa-quote-left"></i>
+                        Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram
+                        malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                        <i class="fa-solid fa-quote-right"></i>
+                    </p>
+                    <img src="./img/testimonials-2.jpg" alt="">
+                    <h3>Sara Wilsson</h3>
+                    <h4>Designer</h4>
+                </div>
+                <div class="slider-item">
+                    <p>
+                        <i class="fa-solid fa-quote-left"></i>
+                        Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
+                        minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                        <i class="fa-solid fa-quote-right"></i>
+                    </p>
+                    <img src="./img/testimonials-3.jpg" alt="">
+                    <h3>Jena Karlis</h3>
+                    <h4>Store Owner</h4>
+                </div>
+                <div class="slider-item">
+                    <p>
+                        <i class="fa-solid fa-quote-left"></i>
+                        Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim
+                        velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum
+                        veniam.
+                        <i class="fa-solid fa-quote-right"></i>
+                    </p>
+                    <img src="./img/testimonials-4.jpg" alt="">
+                    <h3>Matt Brandon</h3>
+                    <h4>Freelancer</h4>
+                </div>
+                <div class="slider-item">
+                    <p>
+                        <i class="fa-solid fa-quote-left"></i>
+                        Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
+                        culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
+                        quid.
+                        <i class="fa-solid fa-quote-right"></i>
+                    </p>
+                    <img src="./img/testimonials-5.jpg" alt="">
+                    <h3>John Larson</h3>
+                    <h4>Entrepreneur</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="team" id="team">
+        <div class="container">
+            <div class="team-title" data-aos="fade-in" data-aos-delay="100">
+                <h2>Team</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+            <div class="team-lists d-flex">
+                <div class="member col-md-6 col-lg-4 " data-aos="fade-up" data-aos-delay="100">
+                    <div class="pic">
+                        <img src="./img/team-1.jpg" alt="">
+                    </div>
+                    <div class="memver-infor">
+                        <h4>Walter White</h4>
+                        <span>Chief Executive Officer</span>
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="member col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="pic">
+                        <img src="./img/team-2.jpg" alt="">
+                    </div>
+                    <div class="memver-infor">
+                        <h4>Sarah Jhonson</h4>
+                        <span>Product Manager</span>
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="member col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+                    <div class="pic">
+                        <img src="./img/team-3.jpg" alt="">
+                    </div>
+                    <div class="memver-infor">
+                        <h4>William Anderson</h4>
+                        <span>CTO</span>
+                        <div class="social">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact" id="contact" >
+        <div class="container" data-aos="fade-up">
+            <div class="contact-title">
+                <h2>Contact</h2>
+                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            </div>
+            <div class="contact-infor d-flex justify-content-between">
+                <div class="address bcg col-12 col-lg-5 col-md-12">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <h3>Our Address</h3>
+                    <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+                <div class="mail bcg col-6 col-lg-3 col-md-6 ">
+                    <i class="fa-solid fa-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p>contact@example.com</p>
+                </div>
+                <div class="call-us bcg col-6 col-lg-3 col-md-6">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <h3>Call Us</h3>
+                    <p>+1 5589 55488 55</p>
+                </div>
+            </div>
+            <div class="contact-map d-flex justify-content-between p-3">
+                <div class="map col-12 col-lg-5 ">
+                    <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 430px;" allowfullscreen=""></iframe>
+                </div>
+                <div class="contact-forms col-12 col-lg-6  ">
+                    <form class="contact-form" >
+                        <div class="row">
+                            <div class="youName" style="flex: 0 0 50%; padding: 0 10px;">
+                                <input type="text" name="Your Name" id="" placeholder="Your Name" style="width:100% ; padding: 10px;">
+                            </div>
+                            <div class="mail" style="flex: 0 0 50%; padding: 0 10px;">
+                                <input type="mail" name="Your mail" id="" placeholder="Your mail" style="width:100% ; padding: 10px;" >
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="subject" style="flex: 0 0 100%; padding: 0 10px;">
+                                <input type="text" placeholder="Subject ..." style="width:100% ; padding: 10px;">
+                            </div>
+    
+                        </div>
+                        <div class="row">
+                            <div class="controll" style="flex: 0 0 100%; padding: 0 10px;">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required="" style="width:100% ; padding: 10px;"></textarea>
+                            </div>
+                            
+                        </div>
+                        <div class="send-mess">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-items d-flex ">
+                    <div class="footer-infor col-12 col-lg-4 col-md-6">
+                        <h3>Squadfree</h3>
+                        <p class="pb-3">Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</p>
+                        <p> A108 Adam Street <br> NY 535022, USA<br><br> <strong>Phone:</strong> +1 5589 55488 55<br> <strong>Email:</strong> info@example.com<br></p>
+                        <div class="social-links">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-link col-12 col-lg-2 col-md-6 ">
+                        <h4>Useful Links</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a>
+                            </li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-link col-12 col-lg-2 col-md-6">
+                        <h4>Our Services</h4>
+                        <ul>
+                            <li>
+                                <i class="bx bx-chevron-right"></i> <a href="#">Web Design</a>
+                            </li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i> <a href="#">Web Development</a>
+                            </li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i> <a href="#">Product Management</a>
+                            </li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i> <a href="#">Marketing</a>
+                            </li>
+                            <li>
+                                <i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer-newletter col-12 col-lg-4 col-md-6">
+                        <h4>Our Newsletter</h4>
+                        <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+                        <form action=""> <input type="email" name="email"><input type="submit" value="Subscribe"></form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright"> © Copyright <strong><span>Squadfree</span></strong>. All Rights Reserved</div>
+            <div class="credits"> Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a></div>
+        </div>
+    </footer>
+
+
+
+
+        <script
+          type="text/javascript"
+          src="https://code.jquery.com/jquery-1.11.0.min.js"
+        ></script>
+        <script
+          type="text/javascript"
+          src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+        ></script>
+        <script
+          type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js">
+        </script>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="./app.js"></script>
+</body>
+
+</html>
